@@ -1,0 +1,82 @@
+header {
+    background-color: #577399;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 2px solid #ccc
+}
+body {
+    background-color: #e9eef1;
+}
+.main_title {
+    color: #e9eef1;
+
+}
+.alkatra-title {
+  font-family: "Alkatra", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <700>;
+  font-style: normal;
+}
+
+.intro {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 20px;  
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.hero{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.timebox{
+    display: flex;
+    gap: 90px;
+}
+.time{
+    text-align: center;
+}
+.time h2{
+    font-size: 3rem;
+    font-weight: 100;
+}
+.picture-countdown {
+    display: flex;
+    justify-content: space-around;
+}
+.family {
+    object-fit: cover;
+}
+.ports-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.itinerary-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
