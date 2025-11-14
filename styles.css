@@ -22,6 +22,7 @@ body {
 
 .intro {
     text-align: center;
+    margin-top: 40px; /* add space below the banner */
 }
 h1 {
     text-align: center;
@@ -32,6 +33,11 @@ h2 {
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 20px;  
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
 }
 *{
     padding: 0;
@@ -65,18 +71,33 @@ h1{
 .picture-countdown {
     display: flex;
     justify-content: space-around;
+    margin-top: 40px; /* space between the H2 and the second picture */
 }
 .family {
     object-fit: cover;
+}
+
+/* Make only the ports image a consistent size */
+.ports-image {
+    height: 500px; /* match the second photo's height */
+    width: 700;
+    /* max-width: 100%; */
+    object-fit: cover;
+    display: block;
 }
 .ports-list {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
+.ports-list h3 {
+    margin-bottom: 20px; /* add space between the heading and the image */
+}
 .itinerary-list {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 2rem;
+
 }
